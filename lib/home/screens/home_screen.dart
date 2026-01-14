@@ -54,12 +54,12 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.search),
-            onPressed: () => _showSearchDialog(),
-          )
-        ],
+        // actions: [
+        //   IconButton(
+        //     icon: const Icon(Icons.search),
+        //     onPressed: () => _showSearchDialog(),
+        //   )
+        // ],
       ),
       body: RefreshIndicator(
         onRefresh: () async {
@@ -174,7 +174,9 @@ class _HomeScreenState extends State<HomeScreen> {
           if (index == 1) {
             // TODO: Navigate to Discover/Search
           } else if (index == 2) {
-            // TODO: Navigate to Favorites / Collections
+            // Navigator.push(context,
+            // MaterialPageRoute(builder:(context) => ProfileScreen(),),
+            // );
           } else if (index == 3) {
             Navigator.push(
               context,
