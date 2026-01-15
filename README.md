@@ -45,11 +45,6 @@ ChatGPT – UI logic, Flutter code, Supabase backend logic, debugging
 
 Stitch (Google AI) – AI-generated UI designs
 
-**🎨 Design Links**
-
-Stitch Designs:
-https://stitch.withgoogle.com/projects/4858608704950872372
-
 **⚠️ Known Limitations / Incomplete Features**
 
 Collections feature is partially implemented.
